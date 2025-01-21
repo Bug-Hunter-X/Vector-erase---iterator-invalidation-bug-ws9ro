@@ -1,0 +1,2 @@
+# Vector Erase() Iterator Invalidation Bug in C++
+This repository demonstrates a common bug in C++ when using `std::vector::erase()`.  The provided code attempts to remove elements from a vector while iterating over it, but due to iterator invalidation, it doesn't work correctly.  The solution showcases a proper approach to handle this issue.
